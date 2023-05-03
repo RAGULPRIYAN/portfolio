@@ -109,12 +109,12 @@ justify-content: center;
   border-style: none;
   height: 482px; */
  
-  background-image: url("/home/trainingbatchmarch2023/Documents/portfolio/image/back.jpg");
+  background-image: url("./image/back.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
 .img2{
-  background-image: url("/home/trainingbatchmarch2023/Documents/portfolio/image/back.jpg");
+  background-image: url("./image/back.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 
