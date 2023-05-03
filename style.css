@@ -34,6 +34,34 @@ font-style: "Cormorant_Garamond variant0"
  
   
 }
+.service-box1 {
+
+color: #fff;
+  
+width: 100%;
+  
+  margin-top: 65px;
+   background-color: #4e4a4a;
+   padding: 2.5rem 1.3rem;
+  
+border-radius: 1rem;
+  
+ margin-bottom: 3rem;
+  
+text-align: center;
+  
+font-family: 'Montserrat';
+  
+}
+#service-box .ico-circle {
+
+/* transition: all 500ms ease; */
+display: inline-flex;
+  
+ align-items: center;
+  
+justify-content: center;
+}
 .gap{
   height: 80px;
   width: 50px;
