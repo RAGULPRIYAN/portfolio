@@ -8,6 +8,59 @@
     <title>Document</title>
 </head>
 <body>
+    <!DOCTYPE html>
+<html>
+<style>
+#Progress {
+  width: 100%;
+  background-color: black;
+}
+
+#progressBar {
+  width: 1%;
+  height: 40px;
+  background-color: orange;
+  text-align: center;
+  line-height: 40px;
+  color: white;
+}
+</style>
+<body>
+
+<h1>Progress Bar</h1>
+
+<div id="Progress">
+  <div id="progressBar"><b>1%<b></div>
+</div>
+
+<br>
+<button onclick="progress()">Click Here</button> 
+
+<script>
+var i = 0;
+function progress() {
+  if (i == 0) {
+    i = 1;
+    var elem = document.getElementById("progressBar");
+    var width = 10;
+    var id = setInterval(frame, 10);
+    function frame() {
+      if (width >= 100) {
+        clearInterval(id);
+        i = 0;
+      } else {
+        width++;
+        elem.style.width = width + "%";
+        elem.innerHTML = width  + "%";
+      }
+    }
+  }
+}
+</script>
+
+</body>
+</html>
+
     <div class="container">
     <table id="mymovietable">
 <thead>
@@ -22,6 +75,7 @@
     </tbody>
     </table>
 </div>
+
 <script>
     fetch('https://jsonplaceholder.typicode.com/users')
       .then(response => response.json())
