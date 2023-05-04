@@ -1049,5 +1049,5 @@ body.dark .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 @media (max-width: 576px) {
-  .frame img { width: 340px;}
+  .frame img { width: 320px;}
 } 
