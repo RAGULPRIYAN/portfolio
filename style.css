@@ -1048,6 +1048,6 @@ body.dark .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   .names { font-size: 36px; }
 }
 
-@media (max-width: 576px) {
+/* @media (max-width: 576px) {
   .frame img { width: 320px;}
-} 
+}  */
