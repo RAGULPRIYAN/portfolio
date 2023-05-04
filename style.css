@@ -497,7 +497,7 @@ path.baloon:hover{
 }
 .frame img {
  
-	width: 340px;
+	width: inherit;
 	height: 300px;
 }
 .frame .details {
