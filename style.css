@@ -16,7 +16,7 @@
     min-height: 800px;
      */
 body{
- background-color: #e9eff1;
+ background-color: #2da9d3;
 font-style: "Cormorant_Garamond variant0"
 ;
 
@@ -489,13 +489,15 @@ path.baloon:hover{
 
 /* Craeted refering to LittleSnippets.net Pen: https://codepen.io/littlesnippets/pen/adLELd */
 .frame {
+  display: block;
 	text-align: center;	
 	position: relative;
 	cursor: pointer;	
 	perspective: 500px; 
 }
 .frame img {
-	width: 350px;
+ 
+	width: 340px;
 	height: 300px;
 }
 .frame .details {
