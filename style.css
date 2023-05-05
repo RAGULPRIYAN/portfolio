@@ -130,6 +130,28 @@ justify-content: center;
   padding: 5px;
   border-radius: 5px;
 }
+
+  /* .naming {
+      background-color: rgb(196, 194, 192);
+      border-radius: 50px;
+      height: 40px;
+      width: 40px;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      font-weight: bold;
+      padding: 1px 14px;
+      font-size: 26px;
+      font-family: Poppins;
+      
+     
+  }
+
+  .naming::after {
+      content: 'AGULPRIYAN';
+      color: black;
+  } */
+
 .progress-bar {
   position: relative;
   width: 150px;
@@ -1107,5 +1129,5 @@ body.dark .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 /* @media (max-width: 576px) {
-  .frame img { width: 320px;}
+  .naming { display: block;}
 }  */
