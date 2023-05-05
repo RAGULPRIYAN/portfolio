@@ -16,7 +16,7 @@
     min-height: 800px;
      */
 body{
- background-color: #2da9d3;
+ background-color: rgb(196, 194, 192);
 font-style: "Cormorant_Garamond variant0"
 ;
 
@@ -75,13 +75,69 @@ justify-content: center;
 
  
 }
+#tooltip {
+  position: absolute;
+ 
+  top: 30px;
+  left: 80px;
+  display: none;
+  
+  color: black;
+  padding: 5px;
+  border-radius: 5px;
+}
+#tooltip1 {
+  position: absolute;
+  top: 130px;
+  left: 80px;
+
+  display: none;
+  
+  color: black;
+  padding: 5px;
+  border-radius: 5px;
+}
+#tooltip2 {
+  position: absolute;
+  top: 230px;
+  left: 80px;
+
+  display: none;
+  
+  color: black;
+  padding: 5px;
+  border-radius: 5px;
+}
+#tooltip3 {
+  position: absolute;
+  top: 325px;
+  left: 80px;
+
+  display: none;
+  
+  color: black;
+  padding: 5px;
+  border-radius: 5px;
+}
+#tooltip4 {
+  position: absolute;
+  top: 420px;
+  left: 80px;
+
+  display: none;
+  
+  color: black;
+  padding: 5px;
+  border-radius: 5px;
+}
 .progress-bar {
   position: relative;
   width: 150px;
   height: 150px;
   border-radius: 50%;
   margin: auto;
-  background-color: #99aab1;
+  color: black;
+  background-color: rgb(196, 194, 192);
   display: flex;
   justify-content: center;
   align-items: center;
