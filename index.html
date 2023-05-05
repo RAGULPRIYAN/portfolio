@@ -14,7 +14,7 @@
 
 
 <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>RAGUL portfolio</title>
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css'>
   <link rel="stylesheet" href="./style.css">
 
@@ -33,7 +33,7 @@
               <span class="navbar-toggler-icon"></span>
             </button>
             <!-- <div class="naming">R</div> -->
-            <h2 >RAGULPRIYAN M</h2>
+            <h2 class="namer"><strong class="bold">R</strong>AGULPRIYAN</h2>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav ml-auto py-4 py-md-0">
                 <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4 active">
@@ -143,6 +143,7 @@
 <div class="card col-sm-12 col-lg-8 col-md-8">
   
   <h1>About Me</h1>
+  
   <h5 class="gray">I'm a full stack developer with experience in both front-end and back-end technologies.</h5>
 
 <div class="row response">
@@ -152,7 +153,7 @@
 
   </div>
   <div class="col-sm-6 gray">
-    <h3>RAGULPRIYAN</h3>
+    <h3>RAGULPRIYAN M</h3>
   </div>
 </div>
   <div class="row response">
@@ -173,7 +174,7 @@
   </div>
   <div class="row response">
     <div class="col-sm-6">
-      <h3>Zipcode:</h3>
+      <h3>Pincode:</h3>
     </div>
     <div class="col-sm-6 gray">
       <h3>636904</h3> 
@@ -322,7 +323,9 @@
                </clipPath>
                </defs>
                </svg>
-               <div id="tooltip"></div>
+               <div class="card toolstyle" id="tooltip">
+            
+               </div>
             </span>     
            </div>
            <div>
@@ -338,7 +341,7 @@
                 </defs>
                 </svg>
                 
-            </span>  <div id="tooltip1"></div>
+            </span>  <div class="card toolstyle1" id="tooltip1"></div>
           </div>
     <div>
       <span><svg width="54" height="98" viewBox="0 0 54 98" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -354,7 +357,7 @@
             </clipPath>
           </defs>
         </svg>
-      </span>  <div id="tooltip2"></div>
+      </span>  <div class="card toolstyle2" id="tooltip2"></div>
     </div>
   
   
@@ -369,7 +372,7 @@
       </clipPath>
       </defs>
       </svg>
-      </span>  <div id="tooltip3"></div>
+      </span>  <div class="card toolstyl3" id="tooltip3"></div>
   </div>
   <div>
     <span>
@@ -384,7 +387,7 @@
         </defs>
         </svg>
         
-    </span>  <div id="tooltip4"></div>
+    </span>  <div class="card toolstyle" id="tooltip4"></div>
   </div>
         </div>
       </div>
@@ -481,10 +484,10 @@
             </ul>
   
             <span>
-              <a href="#https://www.facebook.com/" class="fb"><img src="./image/icons8-facebook.svg"></img></a>
-              <a href="#https://www.instagram.com/" class="insta"><img src="./image/icons8-instagram.svg"></img></a>
-              <a href="#https://twitter.com/i/flow/login" class="twitter"><img src="./image/icons8-twitter.svg"></img></a>
-              <a href="#https://twitter.com/i/flow/login" class="fb"><img src="./image/icons8-github.svg"></img></a>
+              <a href="https://www.facebook.com/" class="fb"><img src="./image/icons8-facebook.svg"></img></a>
+              <a href="https://www.instagram.com/" class="insta"><img src="./image/icons8-instagram.svg"></img></a>
+              <a href="https://twitter.com/i/flow/login" class="twitter"><img src="./image/icons8-twitter.svg"></img></a>
+              <a href="https://github.com/" class="fb"><img src="./image/icons8-github.svg"></img></a>
             </span>
           </div>
         </div>
@@ -584,6 +587,9 @@ progressBars.forEach((progressBar, index) => {
 
   path.addEventListener('mousemove', (event) => {
     tooltip.innerHTML = ' PYTHON';
+    
+     tooltip.style.backgroundColor = 'rgb(129, 206, 129)';
+     tooltip.style.color = 'white';
    
     
     tooltip.style.display = 'block';
@@ -604,6 +610,8 @@ tooltip();
 
   path.addEventListener('mousemove', (event) => {
     tooltip1.innerHTML = 'BOOTSTRAP';
+    tooltip1.style.backgroundColor = 'rgb(240, 225, 91)';
+    tooltip1.style.color = 'white';
    
     
     tooltip1.style.display = 'block';
@@ -624,6 +632,8 @@ tooltip1();
 
   path.addEventListener('mousemove', (event) => {
     tooltip2.innerHTML = 'SQL';
+    tooltip2.style.backgroundColor = 'blue';
+    tooltip2.style.color = 'white';
    
     
     tooltip2.style.display = 'block';
@@ -644,6 +654,8 @@ tooltip2();
 
   path.addEventListener('mousemove', (event) => {
     tooltip3.innerHTML = 'XAMARIN';
+    tooltip3.style.backgroundColor = 'rgb(209, 65, 238)';
+    tooltip3.style.color = 'white';
    
     
     tooltip3.style.display = 'block';
@@ -664,7 +676,8 @@ tooltip3();
 
   path.addEventListener('mousemove', (event) => {
     tooltip4.innerHTML = 'HTML';
-   
+    tooltip4.style.backgroundColor = 'rgb(35, 6, 49)';
+    tooltip4.style.color = 'white';
     
     tooltip4.style.display = 'block';
   });

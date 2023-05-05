@@ -75,10 +75,20 @@ justify-content: center;
 
  
 }
+
+.namer{
+  font-family: font-318;
+}
+.bold{
+  color: rgb(196, 194, 192);
+
+
+  
+}
 #tooltip {
   position: absolute;
  
-  top: 30px;
+  top: 20px;
   left: 80px;
   display: none;
   
@@ -88,7 +98,7 @@ justify-content: center;
 }
 #tooltip1 {
   position: absolute;
-  top: 130px;
+  top: 120px;
   left: 80px;
 
   display: none;
@@ -99,7 +109,7 @@ justify-content: center;
 }
 #tooltip2 {
   position: absolute;
-  top: 230px;
+  top: 210px;
   left: 80px;
 
   display: none;
@@ -110,7 +120,7 @@ justify-content: center;
 }
 #tooltip3 {
   position: absolute;
-  top: 325px;
+  top: 315px;
   left: 80px;
 
   display: none;
@@ -121,7 +131,7 @@ justify-content: center;
 }
 #tooltip4 {
   position: absolute;
-  top: 420px;
+  top: 410px;
   left: 80px;
 
   display: none;
@@ -129,6 +139,10 @@ justify-content: center;
   color: black;
   padding: 5px;
   border-radius: 5px;
+}
+.toolstyle,.toolstyle1,.toolstyle2,.toolstyle3,.toolstyle4{
+  font-size: large;
+  
 }
 
   /* .naming {
@@ -460,6 +474,11 @@ body{
 path.baloon:hover{
   fill: #00acee;
 }
+/* .firstletter{
+  background-color: #00acee;
+  border-radius: 30px;
+  padding: 5px;
+} */
 
 /* .column#sepia img {
 	-webkit-filter: sepia(100%);
@@ -1129,5 +1148,5 @@ body.dark .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 /* @media (max-width: 576px) {
-  .naming { display: block;}
+  .font { font-size: 16px;}
 }  */
