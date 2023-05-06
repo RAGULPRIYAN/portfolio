@@ -109,7 +109,7 @@ justify-content: center;
 }
 #tooltip2 {
   position: absolute;
-  top: 210px;
+  top: 215px;
   left: 80px;
 
   display: none;
@@ -120,7 +120,7 @@ justify-content: center;
 }
 #tooltip3 {
   position: absolute;
-  top: 315px;
+  top: 310px;
   left: 80px;
 
   display: none;
