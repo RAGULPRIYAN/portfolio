@@ -740,6 +740,14 @@ path.baloon:hover{
   color: #fff;
   background-color: #00acee;
 }
+.contact-detail span .linked{
+  color: #063f55;
+  border: 3px solid #063f55;
+}
+.contact-detail span .linked:hover {
+  color: #fff;
+  background-color: #063f55;
+}
 
 form.contFrm {
   max-width: 396px;
