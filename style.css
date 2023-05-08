@@ -436,6 +436,7 @@ body{
   z-index: 1;
  display: flex;
  justify-content: center;
+ /* align-items: center; */
   
 }
 .full-height {
@@ -627,7 +628,7 @@ path.baloon:hover{
   font-weight: bold;
   position: relative;
   margin: 0;
-  top: 50%;
+  top: 25%;
   transform: translateY(-50%);
 }
 
