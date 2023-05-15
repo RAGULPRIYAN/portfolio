@@ -43,7 +43,7 @@
                   <a class="nav-link" href="#about">About</a>
                 </li>
                 <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
-                  <a class="nav-link" href="#resume">Resume</a>
+                  <a class="nav-link" href="#resume">Academic</a>
                 </li>
                 <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
                   <a class="nav-link" href="#Knowns">Knowns</a>
@@ -83,9 +83,6 @@
           <span  data-text="Full Stack Developer., Designer.,"></span>
          
         </h2> 
-
-       
-       
 
             </div>   
           </div>    
@@ -198,6 +195,9 @@
       <h3>9025519230</h3>
     </div>
   </div>
+  <!-- <div>
+    <a href="https://preview.colorlib.com/#ronaldo" class="webbtn">Download Resume</a>
+  </div> -->
 
 </div>
 
@@ -494,30 +494,37 @@
         </div>
   
         <div class="col-md-6">
-          <form action="#" class="contFrm" method="POST">
+          <form action="#" class="contFrm" id="my-form">
             <div class="row">
               <div class="col-sm-6">
-                <input type="text" name="name" placeholder="Your Name" class="inptFld" required />
+                <input type="text" name="name" id="name" placeholder="Your Name" class="inptFld" required />
+                <span class="spantext" id="nameError">Please enter your Name</span>
               </div>
   
               <div class="col-sm-6">
-                <input type="email" name="email" placeholder="Email Address" class="inptFld" required />
+                <input type="email" id="email" name="email" placeholder="Email Address" class="inptFld" required />
+                <span class="spantext" id="emailError">Please enter your Email</span>
               </div>
   
               <div class="col-sm-6">
-                <input type="tel" name="phone" placeholder="Phone Number" class="inptFld" required />
+                <input type="tel" name="phone" id="phone" placeholder="Phone Number" class="inptFld" required />
+                <span class="spantext" id="numberError">Please enter your Number</span>
               </div>
   
               <div class="col-sm-6">
-                <input type="text" name="sub" placeholder="Subject" class="inptFld" required />
+                <input type="text" name="sub" id="subject" placeholder="Subject" class="inptFld" required />
+                <span class="spantext" id="subjectError">Please enter your Subject</span>
               </div>
   
               <div class="col-12">
-                <textarea class="inptFld" rows="" cols="" placeholder="Your Message..." required></textarea>
+                <textarea class="inptFld" rows="" id="message" cols="" placeholder="Your Message..." required></textarea>
+                <span class="spantext" id="messageError">Please enter your Message</span>
               </div>
   
               <div class="col-12">
-                <input type="submit" name="submit" value="SUBMIT" class="inptBtn" />
+                <button type="button" class="inptBtn" id="submitBtn"  onclick="createuser()">Submit</button>
+                <!-- <button type="button" class="inptBtn" name="submit" id="submitBtn" value="SUBMIT" onclick="submituser()">Submit</button> -->
+                <!-- <input type="button" name="submit" v onclick="createuser()" class="inptBtn" /> -->
               </div>
             </div>
           </form>
@@ -544,7 +551,7 @@
 <script>
  
        // Define the target percentages for each progress bar
-const targetPercentages = [94, 80, 85]; // Example percentages
+const targetPercentages = [94, 78, 80]; // Example percentages
 
 // Get all the progress bars on the page
 const progressBars = document.querySelectorAll('.progress-bar');
@@ -813,6 +820,7 @@ function deleting(textIndex, text) {
   }
 }
 </script> -->
+<script src="/home/trainingbatchmarch2023/Documents/portfolio/form.js"></script>
 <body>
     
 

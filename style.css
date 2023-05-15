@@ -1143,6 +1143,7 @@ body.dark .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     box-shadow: none;
   }
 }
+
 @media (max-width: 576px) {
   .typewriter { font-size: 24px; }
 }
@@ -1159,3 +1160,7 @@ body.dark .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /* @media (max-width: 576px) {
   .font { font-size: 16px;}
 }  */
+.spantext{
+  color: red;
+  display: none;
+}
